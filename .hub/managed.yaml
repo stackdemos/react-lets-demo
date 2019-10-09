@@ -1,0 +1,60 @@
+parameters:
+  - name: application.description
+    value: >-
+      HTML5/JavaScript application that has been deployed to AWS S3 hosted
+      website with Jenkins CI server
+  - name: application.humanName
+    value: React Lets Demo
+  - name: application.ingress
+    value: react-lets-demo.app.base-k8s-lets-asi.demo10.superhub.io
+  - name: application.name
+    value: react-lets-demo
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: author.email
+    value: demo10.support@agilestacks.io
+  - name: author.id
+    value: 00u24z8mcid8plLyF2p7
+  - name: author.name
+    value: Demo10 Support
+  - name: author.organization
+    value: DEMO10
+  - name: component.dex.okta.appId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.clientId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: react-lets-demo
+  - name: component.github.repository.organization
+    value: stackdemos
+  - name: component.s3website.name
+    value: react-lets-demo
+  - name: component.s3website.path
+  - name: department.name
+    value: Engineering
+outputs:
+  - name: application.description
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
+  - name: component.s3website.name
+  - name: component.s3website.path
+  - name: department.name
